@@ -3,6 +3,12 @@
     <TargetFramework>net461</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="host.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="host.json" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.Azure.WebJobs" Version="2.1.0-beta1" />
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions" Version="2.1.0-beta1" />
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Http" Version="1.0.0-beta1" />
@@ -14,9 +20,6 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <None Update="host.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Update="local.settings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
