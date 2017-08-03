@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "precompiled-function-deploy", "precompiled-function-deploy\precompiled-function-deploy.csproj", "{DAC03C57-4E2E-4F08-803B-E54EE2D20C55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAC03C57-4E2E-4F08-803B-E54EE2D20C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC03C57-4E2E-4F08-803B-E54EE2D20C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC03C57-4E2E-4F08-803B-E54EE2D20C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC03C57-4E2E-4F08-803B-E54EE2D20C55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78162A5E-DC2F-4BB9-BE53-BE233B717BC8}
+	EndGlobalSection
+EndGlobal
